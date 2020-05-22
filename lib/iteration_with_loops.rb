@@ -10,7 +10,7 @@ def join_nested_strings(src)
       if src[row_index][inner_index].class == String 
     
      nested_strings<< src[row_index][inner_index]
-    
+    end 
       inner_index += 1
     end
     
