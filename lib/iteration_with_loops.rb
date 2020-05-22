@@ -12,7 +12,6 @@ def join_nested_strings(src)
      nested_strings<< src[row_index][inner_index]
     end
       inner_index += 1
-    end
     
   row_index += 1
   end
